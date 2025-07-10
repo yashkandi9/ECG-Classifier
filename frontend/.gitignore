@@ -1,0 +1,14 @@
+# Python/Jupyter
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Node.js/Vite
+node_modules/
+dist/
+.vite/
+.env
+
+# Mac/OS/Editor
+.DS_Store
+*.swp
