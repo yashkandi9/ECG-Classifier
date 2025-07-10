@@ -27,7 +27,7 @@ This project classifies ECG signal patterns into different heart conditions usin
 
 | Model         | Accuracy | F1 Macro |
 |---------------|----------|----------|
-| EcgResNet34   | **(to be added)**  | (to be added) |
+| HeartNetIEEE   | **97%**  | 97% |
 
 ---
 
