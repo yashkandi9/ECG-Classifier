@@ -3,6 +3,13 @@
 
 This project classifies ECG signal patterns into different heart conditions using a custom **1D CNN architecture**. The UI is built using **React + Vite**, and the model is trained using PyTorch.
 
+We have 5 types of hearbeats (classes):
+Normal (N)
+R-on-T Premature Ventricular Contraction (R-on-T PVC)
+Premature Ventricular Contraction (PVC)
+Supra-ventricular Premature or Ectopic Beat (SP or EB)
+Unclassified Beat (UB).
+
 ---
 
 ## Structure
