@@ -35,7 +35,7 @@ This project classifies ECG signal patterns into different heart conditions usin
 
 - [ ] FastAPI backend
 - [ ] Live prediction using uploaded ECG waveform
-- [ ] Deployment (HuggingFace Spaces / Render / Vercel)
+- [ ] Deployment (Render / Vercel)
 
 ---
 
