@@ -11,13 +11,13 @@ This project classifies ECG signal patterns into different heart conditions usin
 |--------------|----------------------------------------|
 | `frontend/`  | React UI for ECG input & classification |
 | `notebooks/` | Training notebooks for 1D CNNs          |
-| `data/`      | Sample ECG data in `.csv`/`.npy` format |
+| `data/`      | Sample ECG data in `.csv` format |
 
 ---
 
 ## 🧠 Model Architecture
 
-- Built using **1D CNN + residual blocks**
+- Built using **1D CNN**
 - Trained on ECG data (shape: `360 x 1`)
 - Handles multi-class classification
 
@@ -31,15 +31,8 @@ This project classifies ECG signal patterns into different heart conditions usin
 
 ---
 
-## 🚀 Coming Soon
+## Next
 
 - [ ] FastAPI backend
 - [ ] Live prediction using uploaded ECG waveform
 - [ ] Deployment (Render / Vercel)
-
----
-
-## 🛠 Setup (for notebook)
-
-```bash
-pip install -r requirements.txt
